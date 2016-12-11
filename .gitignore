@@ -1,5 +1,7 @@
-./idea/misc.xml
-./idea/vcs.xml
-./idea/modules.xml
-./idea/workspace.xml
-./idea/seiyuu-image-downloader.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.gradle/
+seiyuu-image-downloader.iml
+seiyuu-image-downloader.ipr
+seiyuu-image-downloader.iws
+build/
