@@ -9,6 +9,8 @@ import java.util.Map;
 
 public interface AppParameters {
     Map<String, List<String>> getParameters();
-    boolean parameterExists();
+    boolean parameterExists( String key );
     List<String> getParameterValues( String key );
+    void clearParameters();
+    String getParameterFirstValue( String key );
 }

@@ -9,6 +9,7 @@ public class SeiyuuAppLauncher
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        AppParameters parameters = new SeiyuuAppParameters( args );
+        System.out.println( parameters );
     }
 }
