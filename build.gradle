@@ -1,19 +1,14 @@
-apply plugin: 'idea'
-apply plugin: 'java'
-apply plugin: 'application'
+subprojects {
+    apply plugin: 'idea'
+    apply plugin: 'java'
 
-repositories {
-    mavenCentral()
-}
+    sourceCompatibility = 1.8
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.+'
-}
+    repositories {
+        mavenCentral()
+    }
 
-version = '0.1'
-jar {
-    manifest {
-        attributes 'Implementation-Title': 'Seiyuu Image Downloader',
-                   'Implementation-Version': version
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.11'
     }
 }

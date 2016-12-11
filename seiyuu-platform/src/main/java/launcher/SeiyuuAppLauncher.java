@@ -5,8 +5,8 @@ package launcher;
  *
  * Created by ambidere on 12/11/16.
  */
-public class SeiyuuAppLauncher {
-
+public class SeiyuuAppLauncher
+{
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
