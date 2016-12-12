@@ -1,4 +1,4 @@
-package generic;
+package com.seiyuu.platform.generic;
 
 /**
  * Created by ambidere on 12/11/16.

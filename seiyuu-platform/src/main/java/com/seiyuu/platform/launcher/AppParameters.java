@@ -1,4 +1,4 @@
-package launcher;
+package com.seiyuu.platform.launcher;
 
 /**
  * Created by ambidere on 12/11/16.

@@ -1,6 +1,6 @@
-package launcher;
+package com.seiyuu.platform.launcher;
 
-import generic.ObjectParser;
+import com.seiyuu.platform.generic.ObjectParser;
 
 import java.util.ArrayList;
 import java.util.List;

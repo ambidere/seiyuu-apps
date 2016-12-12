@@ -1,4 +1,4 @@
-package launcher;
+package com.seiyuu.platform.launcher;
 
 import org.junit.After;
 import org.junit.Test;
