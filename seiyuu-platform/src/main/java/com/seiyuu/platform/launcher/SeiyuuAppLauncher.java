@@ -10,8 +10,8 @@ public class SeiyuuAppLauncher
     public static void main( String[] args )
     {
         AppParameters parameters = new SeiyuuAppParameters( args );
-        ApplicationBuilder builder = new ApplicationBuilder();
-        SeiyuuApp application = builder.buildApp( parameters.getParameterFirstValue( "app" ) );
+        SeiyuuApplicationBuilder appBuilder = new SeiyuuApplicationBuilder();
+        SeiyuuApp application = appBuilder.build( parameters );
         application.start();
     }
 }
