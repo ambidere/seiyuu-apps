@@ -1,6 +1,8 @@
-package com.seiyuu.platform.launcher;
+package com.seiyuu.platform.application.launcher;
 
-import com.seiyuu.platform.launcher.exception.SeiyuuAppInitializationFailure;
+import com.seiyuu.platform.application.SeiyuuApp;
+import com.seiyuu.platform.application.launcher.exception.SeiyuuAppInitializationFailure;
+import com.seiyuu.platform.application.parameters.AppParameters;
 
 /**
  * Created by ambidere on 12/12/16.
@@ -9,7 +11,7 @@ public class SeiyuuApplicationBuilder
 {
     private static final String APP = "app";
 
-    public SeiyuuApp build( AppParameters params )
+    public SeiyuuApp build(AppParameters params )
     {
         assertAppArgumentExists( params );
         String name = params.getParameterFirstValue( APP );
@@ -18,6 +20,7 @@ public class SeiyuuApplicationBuilder
         {
             Class clazz = Class.forName( name );
             app = (SeiyuuApp) clazz.newInstance();
+            app.setParams( params );
         }
         catch ( ClassNotFoundException e )
         {

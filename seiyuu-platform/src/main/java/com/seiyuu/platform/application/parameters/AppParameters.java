@@ -1,6 +1,8 @@
-package com.seiyuu.platform.launcher;
+package com.seiyuu.platform.application.parameters;
 
 /**
+ * Generic Application Parameters for Seiyuu Related Applications
+ *
  * Created by ambidere on 12/11/16.
  */
 

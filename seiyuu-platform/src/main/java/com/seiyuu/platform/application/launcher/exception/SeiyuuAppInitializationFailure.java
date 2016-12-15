@@ -1,4 +1,4 @@
-package com.seiyuu.platform.launcher.exception;
+package com.seiyuu.platform.application.launcher.exception;
 
 /**
  * Created by marionejrs on 12/14/16.

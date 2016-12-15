@@ -1,5 +1,6 @@
-package com.seiyuu.platform.launcher;
+package com.seiyuu.platform.application.launcher;
 
+import com.seiyuu.platform.application.parameters.SeiyuuAppParameters;
 import org.junit.After;
 import org.junit.Test;
 

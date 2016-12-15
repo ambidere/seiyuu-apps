@@ -1,4 +1,4 @@
-package com.seiyuu.platform.launcher;
+package com.seiyuu.platform.application.parameters;
 
 import com.seiyuu.platform.generic.ObjectParser;
 

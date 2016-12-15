@@ -6,7 +6,7 @@ dependencies {
 }
 
 run {
-    mainClassName = "com.seiyuu.platform.launcher.SeiyuuAppLauncher"
-    args "-app", "com.seiyuu.seidown.SeiyuuImageDownloaderApp"
+    mainClassName = "com.seiyuu.platform.application.launcher.SeiyuuAppLauncher"
+    args "-app", "com.seiyuu.seidown.SeiyuuImageDownloaderApp", "-pages", "2:4"
 }
 
