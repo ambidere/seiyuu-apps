@@ -3,6 +3,8 @@ apply plugin: 'application'
 
 dependencies {
     compile project(":seiyuu-platform")
+    compile group: 'commons-validator', name: 'commons-validator', version: '1.4.1'
+
 }
 
 run {

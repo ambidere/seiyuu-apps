@@ -8,7 +8,7 @@ import com.seiyuu.seidown.mode.HeadlessMode;
 import java.awt.*;
 
 /**
- * Created by marionejrs on 12/12/16.
+ * Created by ambidere on 12/12/16.
  */
 public class SeiyuuImageDownloaderApp implements SeiyuuApp
 {

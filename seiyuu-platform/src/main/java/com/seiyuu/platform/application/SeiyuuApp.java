@@ -4,7 +4,7 @@ import com.seiyuu.platform.application.mode.SeiyuuAppMode;
 import com.seiyuu.platform.application.parameters.AppParameters;
 
 /**
- * Created by marionejrs on 12/12/16.
+ * Created by ambidere on 12/12/16.
  */
 public interface SeiyuuApp
 {

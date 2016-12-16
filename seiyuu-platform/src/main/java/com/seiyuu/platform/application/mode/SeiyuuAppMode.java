@@ -1,7 +1,7 @@
 package com.seiyuu.platform.application.mode;
 
 /**
- * Created by marionejrs on 12/15/16.
+ * Created by ambidere on 12/15/16.
  */
 public interface SeiyuuAppMode
 {
